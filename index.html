@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -166,5 +167,50 @@
             </p>
         </div>
 
-        
+    
 
+    </div>
+
+    <div class="question">
+
+        <h2>Ксюша, ну что?</h2>
+
+        <p>
+            Мы ведь уже столько всего прошли вместе...
+        </p>
+
+        <h2>Выходи за меня? 💍</h2>
+
+        <button class="yes" onclick="yesAnswer()">
+            ДА ❤️
+        </button>
+
+        <button class="no" onclick="noAnswer()">
+            Нет 😐
+        </button>
+
+        <div id="answer"></div>
+
+    </div>
+
+    <footer>
+        Сделано с любовью специально для Ксюши ❤️
+    </footer>
+
+</div>
+
+<script>
+    function yesAnswer() {
+        document.getElementById("answer").innerHTML =
+            "Я ТАК И ЗНАЛ! ❤️💍🥹";
+    }
+
+    function noAnswer() {
+        document.getElementById("answer").innerHTML =
+            "Такого варианта в техническом задании не было 😌❤️";
+    }
+</script>
+
+</body>
+</html>
+```
